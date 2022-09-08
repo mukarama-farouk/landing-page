@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url(/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    list-style: none;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:13px ;
+}
+nav ul li a:hover{
+    background-color: white;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: black;
+    font-size: 70px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+button{
+    padding:12px 0 ;
+    width: 150px;
+    color:black ;
+    background: white;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: goldenrod;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+.card1{
+    background-image: url(/image_6487327\ \(1\).JPG);
+}
+.card2{
+    background-image: url(/image_6483441\ \(1\).JPG);
+}
+.card3{
+    background-image: url(/image_6483441\ \(2\).JPG);
+}
+.card4{
+    background-image: url(/image_6487327.JPG);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+footer{
+    background-color: black;
+    color: goldenrod;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width:1000px)
+{
+
+  nav ul li a{
+    justify-content: center;
+  }
+
+  h1{
+    color: black;
+    font-size: 35px;
+}
+
+p{
+    color: black;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+.card{
+    width: 50px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+
+}
